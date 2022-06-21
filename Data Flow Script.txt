@@ -1,0 +1,15 @@
+    source(output(
+        {_col0_} as string,
+        {_col1_} as string,
+        {_col2_} as string,
+        {_col3_} as string,
+        {_col4_} as string,
+        {_col5_} as double,
+        {_col6_} as string,
+        {_col7_} as double,
+        {_col8_} as string,
+        {_col9_} as string
+    ),
+    allowSchemaDrift: true,
+    validateSchema: false,
+    skipLines: 1) ~> campaignanalyticscsv
