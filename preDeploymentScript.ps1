@@ -303,7 +303,7 @@ if ($context) {
  - Duration:`t`t${totalTime}
  - Resource Group:`t${resourceGroupName}
 
- You're lab environment is ready. Please begin by following the exercises at https://aka.ms/synapselab
+ You're lab environment is ready. 
 
 "@
     }
