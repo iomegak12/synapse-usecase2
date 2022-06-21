@@ -130,7 +130,7 @@ foreach ($rp in $requiredResourceProviders) {
     }
 }
 if ($context) {
-    $principalId = az ad signed-in-user show --query objectId -o tsv
+    $principalId = az ad signed-in-user show --query id -o tsv
     if ($principalId) {
         $subscriptionId = (Get-AzContext).Subscription.Id
         if (!(Test-Path -Path "MCW" )) {
